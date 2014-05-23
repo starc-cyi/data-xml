@@ -1,1 +1,86 @@
 <!-- Objects -->
+
+	<object>
+		
+		<appellation>
+			<name></name>
+			<museum_inventory /><!-- NEW FIELD -->
+			<id desc="Unique"></id>
+		</appellation>
+		
+		<description></description>
+		
+		<display_date></display_date>
+		
+		<temporal_coverage>
+			<time_interval>
+				<start desc="ISO 8601"/>
+				<end desc="ISO 8601"/>
+			</time_interval>
+			<calibration desc="true/false" />
+			<period>
+				<id />
+				<id />
+			</period>
+			<source />
+		</temporal_coverage>
+		
+		<type><!-- NEW FIELD -->
+			<label></label><!-- NEW FIELD -->
+			<id></id><!-- NEW FIELD -->
+			<getty_url></getty_url><!-- NEW FIELD -->
+		</type>
+		
+		<measurement>
+			<perimeter type="Perimeter">
+				<value></value>
+				<unit></unit>
+			</perimeter>
+			<area type="Area">
+				<value></value>
+				<unit></unit>
+			</area>
+			<volume type="Volume">
+				<value></value>
+				<unit></unit>
+			</volume>
+			<height type="Height">
+				<value></value>
+				<unit></unit>
+			</height>
+			<length type="Length">
+				<value></value>
+				<unit></unit>
+			</length>
+			<width type="Width">
+				<value></value>
+				<unit></unit>
+			</width>
+			<altitude type="Altitude"><!-- CHANGED -->
+				<value></value><!-- NEW FIELD -->
+				<unit></unit><!-- NEW FIELD -->
+			</altitude>
+		</measurement>
+		
+		<spatial_information>
+			<original_location><!-- NEW FIELD-->
+				<id></id><!-- NEW FIELD -->
+			</original_location>
+			<site></site>
+			<area></area>
+			<square></square>
+			<building></building>
+			<room></room>
+		</spatial_information>
+		
+		<current_location><!-- NEW FIELD-->
+			<id></id><!-- NEW FIELD -->
+		</current_location>
+		
+		<references>
+			<reference>
+				<id></id>
+			</reference>
+		</references>
+		
+	</object>
