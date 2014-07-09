@@ -6,7 +6,7 @@ Main metadata files. One for objects and one for activities - to be cross refere
 objects
 -------
 
-You may place any number of objects in a single file, or across multiple files. Just copy-paste/repeat the current object closure and populate with values. Details of how you specify the objects to convert will be given in the miminal-converter README file.
+You may place any number of objects in a single file, or across multiple files. Just copy-paste/repeat the current object closure and populate with values. Details on how to specify the objects to convert will be given in the miminal-converter README file.
 
 activities-resources
 --------------------
