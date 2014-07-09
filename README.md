@@ -1,7 +1,7 @@
 data-xml
 ========
 
-Main metadata files. One for objects and one for activities - to be cross referenced. These are used by the conversion scripts, as are the rest. So the following guides apply:
+Main metadata files. One for objects and one for activities - to be cross referenced. These are used by the conversion scripts, as are the rest (files in datalists-ttl). So the following guides apply:
 
 objects
 -------
